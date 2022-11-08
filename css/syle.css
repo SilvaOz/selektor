@@ -1,0 +1,54 @@
+h1 {
+    color: green;
+    font-style: oblique;
+    
+}
+
+h2 {
+    color: blue;
+    background-color: antiquewhite;
+}
+
+h3 {
+    color: gold;
+}
+.h3-class {
+    background-color: orange;
+}
+#h3-id {
+    color:black
+}
+p {
+    color: green;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#secondary-text {
+    color:brown;
+    font-family: 'Times New Roman', Times, serif;
+    background: violet;
+}
+
+.primary-text {
+    color:red;
+    font-style: italic;
+    border: 5px solid yellow;
+}
+
+div:nth-child(2n) {
+    background: yellow;
+}
+div:nth-child(3n){
+    background: orange;
+}
+
+.color {
+    background: black;
+}
+a[target] {
+    background: skyblue;
+}
+
+[alt~=love]{
+    border: 5px solid green;
+}
